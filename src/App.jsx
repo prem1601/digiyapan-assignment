@@ -1,11 +1,14 @@
+import Header from "./components/Header"
+import PDF_to_WORD from "./pages/PDF_to_WORD"
 
 
 function App() {
 
   return (
-    <div className="text-center">
-      <h1 className="text-5xl">Hello World!</h1>
-    </div>
+    <>
+      <Header />
+      <PDF_to_WORD />
+    </>
   )
 }
 
